@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMBER GAME</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+<!-- HTML for the navigation bar -->
+
+
+<div class ="title"> 
+    <h1 id="gameheading"> NUMBER GUESS GAME</h1>
+</div>
+
+<div class="content">
+    <div class="wrapper">
+        <form class="form">
+        <label for = "guessfield" id ="guess"> <h1>Guess Your Number</h1></label>
+        <input type = "text" id = "guessfield" class="guessfield">
+        <input type="submit" id = "subt" value = "Submit Guess"
+        class="guessSubmit">
+        </form>
+    </div>
+    
+    <div class="result">
+        <p>Previous Guesses : <span class = "guesses"></span></p>
+        <p>Guesses Remaining : <span class = "lastResult">10</span></p>
+        <p class = loworHi></p>
+    </div>
+</div>
+
+
+
+<div class="footer"> <h3>Rules :</h3> 
+    <ul class ="rules">
+        <li>Try and guess a random number between 1 and 100</li>
+        <li><p>You have 10 attempts to guess the right number</p></li>
+    </ul> 
+            
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding:0 ;
+    background-color: rgb(149, 211, 211);
+}
+
+.title{
+    margin: 0;
+    padding:0 ;
+    overflow: hidden;
+    background-color: #333;
+    color: aliceblue;
+}
+
+#gameheading{
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    background-color: azure;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 70px;
+    padding-bottom: 20px;
+}
+
+#guess{
+    color: rgb(225, 19, 19);
+    font-size: larger;
+    text-align: center;   
+    
+}
+.wrapper{
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+.guessfield{
+    width: 60%;    
+    margin-top: 35px; 
+    margin-left: 20%;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #311;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease-in-out;
+    font-size: 50px;
+
+
+}
+
+#subt{
+    width: 35%;
+    height: 60%;
+    margin-top: 40px;
+    color: #fff;
+    background-color: #333;
+    font-size: large;
+    box-sizing: border-box;
+    border: 2px solid #311;
+    border-radius: 4px;  
+}
+
+.result{
+    margin-top: 50px;
+}
+
+#footer{
+    margin-left: 20px;
+    padding-left: 20px;
+}
